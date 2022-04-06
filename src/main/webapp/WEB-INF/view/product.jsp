@@ -2,6 +2,6 @@
 <html>
 <head>Product</head>
 <body>
-<p>Product</p>
+<p>Product : ${product}</p>
 </body>
 </html>

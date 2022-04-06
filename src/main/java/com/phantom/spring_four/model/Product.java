@@ -1,20 +1,16 @@
 package com.phantom.spring_four.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
-
-import java.math.BigDecimal;
+import lombok.*;
 
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Setter
 public class Product {
-    private Long id;
+    private Integer id;
     private String title;
-    private BigDecimal cost;
+    private Double cost;
 
     @Override
     public boolean equals(Object obj) {
