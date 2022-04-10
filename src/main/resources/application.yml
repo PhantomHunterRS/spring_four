@@ -1,0 +1,30 @@
+spring:
+  mvc:
+    view:
+      prefix: '/WEB-INF/view/'
+      suffix: '.jsp'
+shop.properties.products:
+  - product:
+    id : 1
+    title : 'Phone'
+    cost : 50.0
+  - product:
+    id : 2
+    title : 'Television'
+    cost : 150.0
+  - product:
+    id : 3
+    title : 'Notebook'
+    cost : 90.0
+  - product:
+    id : 4
+    title : 'PS4'
+    cost : 250.0
+  - product:
+    id : 5
+    title : 'Phone6'
+    cost : 150.0
+  - product:
+    id : 6
+    title : 'Phone8'
+    cost : 70.0
